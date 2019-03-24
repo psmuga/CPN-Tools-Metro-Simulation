@@ -1,0 +1,220 @@
+CPN Tools state space report for:
+/cygdrive/F/Magisterka/CPN-Tools-Metro-Simulation/Metro.cpn
+Report generated: Sun Mar 24 12:43:24 2019
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  3290
+     Arcs:   6076
+     Secs:   0
+     Status: Full
+
+  Scc Graph
+     Nodes:  1
+     Arcs:   0
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     New_Page'Free 1         2          0
+     New_Page'Free1 1        2          0
+     New_Page'O1 1           1          0
+     New_Page'O11 1          1          0
+     New_Page'O2 1           1          0
+     New_Page'O21 1          1          0
+     New_Page'O3 1           1          0
+     New_Page'O31 1          1          0
+     New_Page'O4 1           1          0
+     New_Page'O41 1          1          0
+     New_Page'OP1 1          1          0
+     New_Page'OP2 1          1          0
+     New_Page'P1 1           1          0
+     New_Page'P11 1          1          0
+     New_Page'P2 1           1          0
+     New_Page'P21 1          1          0
+     New_Page'P3 1           1          0
+     New_Page'P31 1          1          0
+     New_Page'P4 1           1          0
+     New_Page'P41 1          1          0
+     New_Page'Punkt_Przesiadkowy_2 1
+                             1          0
+     New_Page'Punkt_przesiadkowy_1 1
+                             1          0
+
+  Best Upper Multi-set Bounds
+     New_Page'Free 1     2`metro2(1)++
+2`metro2(2)++
+2`metro2(3)++
+2`metro2(4)++
+2`metro2(5)++
+2`metro2(6)++
+2`metro2(7)
+     New_Page'Free1 1    2`metro1(1)++
+2`metro1(2)++
+2`metro1(3)++
+2`metro1(4)++
+2`metro1(5)++
+2`metro1(6)++
+2`metro1(7)
+     New_Page'O1 1       1`e
+     New_Page'O11 1      1`e
+     New_Page'O2 1       1`e
+     New_Page'O21 1      1`e
+     New_Page'O3 1       1`e
+     New_Page'O31 1      1`e
+     New_Page'O4 1       1`e
+     New_Page'O41 1      1`e
+     New_Page'OP1 1      1`e
+     New_Page'OP2 1      1`e
+     New_Page'P1 1       1`metro1(1)++
+1`metro1(2)++
+1`metro1(3)++
+1`metro1(4)++
+1`metro1(5)++
+1`metro1(6)++
+1`metro1(7)
+     New_Page'P11 1      1`metro2(1)++
+1`metro2(2)++
+1`metro2(3)++
+1`metro2(4)++
+1`metro2(5)++
+1`metro2(6)++
+1`metro2(7)
+     New_Page'P2 1       1`metro1(1)++
+1`metro1(2)++
+1`metro1(3)++
+1`metro1(4)++
+1`metro1(5)++
+1`metro1(6)++
+1`metro1(7)
+     New_Page'P21 1      1`metro2(1)++
+1`metro2(2)++
+1`metro2(3)++
+1`metro2(4)++
+1`metro2(5)++
+1`metro2(6)++
+1`metro2(7)
+     New_Page'P3 1       1`metro1(1)++
+1`metro1(2)++
+1`metro1(3)++
+1`metro1(4)++
+1`metro1(5)++
+1`metro1(6)++
+1`metro1(7)
+     New_Page'P31 1      1`metro2(1)++
+1`metro2(2)++
+1`metro2(3)++
+1`metro2(4)++
+1`metro2(5)++
+1`metro2(6)++
+1`metro2(7)
+     New_Page'P4 1       1`metro1(1)++
+1`metro1(2)++
+1`metro1(3)++
+1`metro1(4)++
+1`metro1(5)++
+1`metro1(6)++
+1`metro1(7)
+     New_Page'P41 1      1`metro2(1)++
+1`metro2(2)++
+1`metro2(3)++
+1`metro2(4)++
+1`metro2(5)++
+1`metro2(6)++
+1`metro2(7)
+     New_Page'Punkt_Przesiadkowy_2 1
+                         1`metro2(1)++
+1`metro2(2)++
+1`metro2(3)++
+1`metro2(4)++
+1`metro2(5)++
+1`metro2(6)++
+1`metro2(7)
+     New_Page'Punkt_przesiadkowy_1 1
+                         1`metro1(1)++
+1`metro1(2)++
+1`metro1(3)++
+1`metro1(4)++
+1`metro1(5)++
+1`metro1(6)++
+1`metro1(7)
+
+  Best Lower Multi-set Bounds
+     New_Page'Free 1     empty
+     New_Page'Free1 1    empty
+     New_Page'O1 1       empty
+     New_Page'O11 1      empty
+     New_Page'O2 1       empty
+     New_Page'O21 1      empty
+     New_Page'O3 1       empty
+     New_Page'O31 1      empty
+     New_Page'O4 1       empty
+     New_Page'O41 1      empty
+     New_Page'OP1 1      empty
+     New_Page'OP2 1      empty
+     New_Page'P1 1       empty
+     New_Page'P11 1      empty
+     New_Page'P2 1       empty
+     New_Page'P21 1      empty
+     New_Page'P3 1       empty
+     New_Page'P31 1      empty
+     New_Page'P4 1       empty
+     New_Page'P41 1      empty
+     New_Page'Punkt_Przesiadkowy_2 1
+                         empty
+     New_Page'Punkt_przesiadkowy_1 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     All
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     All
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     New_Page'T0 1
+     New_Page'T01 1
+     New_Page'T1 1
+     New_Page'T11 1
+     New_Page'T2 1
+     New_Page'T21 1
+     New_Page'T3 1
+     New_Page'T31 1
+     New_Page'T4 1
+     New_Page'T41 1
+     New_Page'T5 1
+     New_Page'T51 1
+
+  Fair Transition Instances
+     None
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     None

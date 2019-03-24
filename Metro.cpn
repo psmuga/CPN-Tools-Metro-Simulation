@@ -116,7 +116,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P4</text>
+        <text>P5</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -168,9 +168,9 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Punkt przesiadkowy 1</text>
+        <text>P3</text>
         <ellipse w="162.000000"
-                 h="84.000000"/>
+                 h="54.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -182,7 +182,7 @@
         </marking>
         <type id="ID1412339669">
           <posattr x="-127.000000"
-                   y="-360.000000"/>
+                   y="-349.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -196,7 +196,7 @@
         </type>
         <initmark id="ID1412339670">
           <posattr x="-117.000000"
-                   y="-281.000000"/>
+                   y="-292.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -324,7 +324,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P3</text>
+        <text>P4</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -376,7 +376,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P4</text>
+        <text>P51</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -428,7 +428,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P3</text>
+        <text>P41</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -480,7 +480,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P2</text>
+        <text>P21</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -532,7 +532,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>P1</text>
+        <text>P11</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -584,7 +584,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Punkt Przesiadkowy 2</text>
+        <text>P31</text>
         <ellipse w="186.000000"
                  h="54.000000"/>
         <token x="-10.000000"
@@ -662,7 +662,7 @@
           <text tool="CPN Tools"
                 version="4.0.1">Metro2</text>
         </type>
-        <initmark id="ID1412537213">
+        <initmark id="ID1412614294">
           <posattr x="770.000000"
                    y="-258.000000"/>
           <fillattr colour="White"
@@ -688,7 +688,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Free</text>
+        <text>Free1</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -714,7 +714,7 @@
           <text tool="CPN Tools"
                 version="4.0.1">Metro1</text>
         </type>
-        <initmark id="ID1412571985">
+        <initmark id="ID1412614285">
           <posattr x="-935.000000"
                    y="-270.000000"/>
           <fillattr colour="White"
@@ -740,7 +740,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O1</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -792,7 +792,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O2</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -844,7 +844,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O3</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -896,7 +896,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O4</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -948,7 +948,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O5</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -974,8 +974,8 @@
           <text tool="CPN Tools"
                 version="4.0.1">E</text>
         </type>
-        <initmark id="ID1412589098">
-          <posattr x="-695.000000"
+        <initmark id="ID1412613451">
+          <posattr x="-675.000000"
                    y="-438.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -986,7 +986,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">1`e</text>
+                version="4.0.1"/>
         </initmark>
       </place>
       <place id="ID1412593982">
@@ -1000,7 +1000,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O51</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -1052,7 +1052,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O41</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -1094,8 +1094,8 @@
         </initmark>
       </place>
       <place id="ID1412594501">
-        <posattr x="-168.000000"
-                 y="-112.000000"/>
+        <posattr x="-226.000000"
+                 y="-102.000000"/>
         <fillattr colour="White"
                   pattern=""
                   filled="false"/>
@@ -1104,7 +1104,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O31</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -1117,8 +1117,8 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412594502">
-          <posattr x="-139.000000"
-                   y="-135.000000"/>
+          <posattr x="-197.000000"
+                   y="-125.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -1131,8 +1131,8 @@
                 version="4.0.1">E</text>
         </type>
         <initmark id="ID1412594503">
-          <posattr x="-131.000000"
-                   y="-88.000000"/>
+          <posattr x="-189.000000"
+                   y="-78.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -1156,7 +1156,7 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O21</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
@@ -1208,14 +1208,14 @@
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>O11</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
                  y="0.000000"
-                 hidden="false">
+                 hidden="true">
           <snap snap_id="0"
                 anchor.horizontal="0"
                 anchor.vertical="0"/>
@@ -1234,8 +1234,8 @@
           <text tool="CPN Tools"
                 version="4.0.1">E</text>
         </type>
-        <initmark id="ID1412594986">
-          <posattr x="372.000000"
+        <initmark id="ID1412613500">
+          <posattr x="392.000000"
                    y="-90.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1246,7 +1246,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">1`e</text>
+                version="4.0.1"/>
         </initmark>
       </place>
       <trans id="ID1412338736"
@@ -1261,7 +1261,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T21</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1335,7 +1335,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T11</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1409,7 +1409,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T1</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1483,7 +1483,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T4</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1557,7 +1557,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T41</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1631,7 +1631,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T3</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1705,7 +1705,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T2</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1779,7 +1779,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T31</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1853,7 +1853,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T0</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -1927,7 +1927,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T01</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2001,7 +2001,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T51</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -2075,7 +2075,7 @@
                   type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text></text>
+        <text>T5</text>
         <box w="60.000000"
              h="40.000000"/>
         <binding x="7.200000"
@@ -3371,8 +3371,8 @@
         <transend idref="ID1412356655"/>
         <placeend idref="ID1412594501"/>
         <annot id="ID1412608979">
-          <posattr x="-264.000000"
-                   y="-165.000000"/>
+          <posattr x="-299.000000"
+                   y="-163.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3403,8 +3403,8 @@
         <transend idref="ID1412338736"/>
         <placeend idref="ID1412594501"/>
         <annot id="ID1412609702">
-          <posattr x="-102.000000"
-                   y="-168.000000"/>
+          <posattr x="-136.000000"
+                   y="-160.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3576,32 +3576,7 @@
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10001.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10002.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10008.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
       <option name="extensions.10003.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10004.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10007.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -3611,22 +3586,47 @@
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10005.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
       <option name="extensions.10006.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10007.options.discover">
+      <option name="extensions.10005.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10007.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10004.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10008.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10002.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.options.disable">
         <value>
           <boolean>false</boolean>
         </value>
       </option>
-      <option name="extensions.10011.options.disable">
+      <option name="extensions.10007.options.discover">
         <value>
           <boolean>false</boolean>
         </value>
@@ -3828,15 +3828,15 @@
       </option>
     </options>
     <binders>
-      <cpnbinder id="ID2222"
-                 x="901"
-                 y="68"
+      <cpnbinder id="ID1412613397"
+                 x="1020"
+                 y="44"
                  width="1604"
                  height="1293">
         <sheets>
           <cpnsheet id="ID2215"
-                    panx="102.400000"
-                    pany="-64.600000"
+                    panx="85.400000"
+                    pany="2.400000"
                     zoom="0.800000"
                     instance="ID2149">
             <zorder>
