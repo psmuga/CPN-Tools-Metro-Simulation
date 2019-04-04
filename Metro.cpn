@@ -28,62 +28,62 @@
           </enum>
           <layout>colset E = with e;</layout>
         </color>
-        <ml id="ID1412527854">val n = 5;
-          <layout>val n = 5;</layout>
+        <ml id="ID1412527854">val n = 4;
+          <layout>val n = 4;</layout>
         </ml>
         <color id="ID1412435398">
           <id>Metro1</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro1</id>
           </index>
-          <layout>colset Metro1 = index metro1 with 1..5;</layout>
+          <layout>colset Metro1 = index metro1 with 1..4;</layout>
         </color>
         <color id="ID1412487184">
           <id>Metro2</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro2</id>
           </index>
-          <layout>colset Metro2 = index metro2 with 1..5;</layout>
+          <layout>colset Metro2 = index metro2 with 1..4;</layout>
         </color>
         <color id="ID1412689139">
           <id>Metro3</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro3</id>
           </index>
-          <layout>colset Metro3 = index metro3 with 1..5;</layout>
+          <layout>colset Metro3 = index metro3 with 1..4;</layout>
         </color>
         <color id="ID1412690468">
           <id>Metro4</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro4</id>
           </index>
-          <layout>colset Metro4 = index metro4 with 1..5;</layout>
+          <layout>colset Metro4 = index metro4 with 1..4;</layout>
         </color>
         <color id="ID1412775656">
           <id>Metro5</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro5</id>
           </index>
-          <layout>colset Metro5 = index metro5 with 1..5;</layout>
+          <layout>colset Metro5 = index metro5 with 1..4;</layout>
         </color>
         <color id="ID1412777621">
           <id>Metro6</id>
           <index>
             <ml>1</ml>
-            <ml>5</ml>
+            <ml>4</ml>
             <id>metro6</id>
           </index>
-          <layout>colset Metro6 = index metro6 with 1..5;</layout>
+          <layout>colset Metro6 = index metro6 with 1..4;</layout>
         </color>
         <var id="ID1412436943">
           <type>
@@ -127,23 +127,23 @@
           <id>m6</id>
           <layout>var m6: Metro6;</layout>
         </var>
-        <ml id="ID1412526799">fun ChangeDirection(metro1(i)) = 1`metro2(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection(metro1(i)) = 1`metro2(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412526799">fun ChangeDirection(metro1(i)) = 1`metro2(i);
+          <layout>fun ChangeDirection(metro1(i)) = 1`metro2(i);</layout>
         </ml>
-        <ml id="ID1412584482">fun ChangeDirection2(metro2(i)) = 1`metro1(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection2(metro2(i)) = 1`metro1(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412584482">fun ChangeDirection2(metro2(i)) = 1`metro1(i);
+          <layout>fun ChangeDirection2(metro2(i)) = 1`metro1(i);</layout>
         </ml>
-        <ml id="ID1412759434">fun ChangeDirection3(metro3(i)) = 1`metro4(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection3(metro3(i)) = 1`metro4(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412759434">fun ChangeDirection3(metro3(i)) = 1`metro4(i);
+          <layout>fun ChangeDirection3(metro3(i)) = 1`metro4(i);</layout>
         </ml>
-        <ml id="ID1412762225">fun ChangeDirection4(metro4(i)) = 1`metro3(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection4(metro4(i)) = 1`metro3(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412762225">fun ChangeDirection4(metro4(i)) = 1`metro3(i);
+          <layout>fun ChangeDirection4(metro4(i)) = 1`metro3(i);</layout>
         </ml>
-        <ml id="ID1412787596">fun ChangeDirection5(metro5(i)) = 1`metro6(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection5(metro5(i)) = 1`metro6(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412787596">fun ChangeDirection5(metro5(i)) = 1`metro6(i);
+          <layout>fun ChangeDirection5(metro5(i)) = 1`metro6(i);</layout>
         </ml>
-        <ml id="ID1412791672">fun ChangeDirection6(metro6(i)) = 1` metro5(if i&gt;=n then 1 else i+2);
-          <layout>fun ChangeDirection6(metro6(i)) = 1` metro5(if i&gt;=n then 1 else i+2);</layout>
+        <ml id="ID1412791672">fun ChangeDirection6(metro6(i)) = 1` metro5(i);
+          <layout>fun ChangeDirection6(metro6(i)) = 1` metro5(i);</layout>
         </ml>
         <color id="ID85042">
           <id>UNIT</id>
@@ -1022,7 +1022,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line11</text>
@@ -1112,7 +1112,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line12</text>
@@ -1202,7 +1202,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line31</text>
@@ -1292,7 +1292,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line32</text>
@@ -1382,7 +1382,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line33</text>
@@ -1472,7 +1472,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line22</text>
@@ -1562,7 +1562,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Line21</text>
@@ -5589,7 +5589,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">1`metro2(1)</text>
+                version="4.0.1">1`metro2(2)</text>
         </initmark>
       </place>
       <place id="ID1412977271">
@@ -10681,7 +10681,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">1` metro6(1)</text>
+                version="4.0.1">1` metro6(2)</text>
         </initmark>
       </place>
       <place id="ID1413001282">
@@ -12053,7 +12053,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">1`metro4(1)</text>
+                version="4.0.1">1`metro4(2)</text>
         </initmark>
       </place>
       <place id="ID1413010006">
@@ -16413,8 +16413,8 @@
                  height="996">
         <sheets>
           <cpnsheet id="ID2215"
-                    panx="58.650000"
-                    pany="341.400000"
+                    panx="22.650000"
+                    pany="270.400000"
                     zoom="0.800000"
                     instance="ID2149">
             <zorder>
@@ -16486,14 +16486,14 @@
           </cpnsheet>
         </sheets>
         <zorder>
-          <position value="0"/>
+          <position value="4"/>
           <position value="1"/>
           <position value="2"/>
           <position value="3"/>
-          <position value="4"/>
           <position value="5"/>
           <position value="7"/>
           <position value="6"/>
+          <position value="0"/>
         </zorder>
       </cpnbinder>
     </binders>
