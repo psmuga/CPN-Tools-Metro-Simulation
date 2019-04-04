@@ -1,21 +1,21 @@
 CPN Tools state space report for:
 /cygdrive/F/Magisterka/CPN-Tools-Metro-Simulation/Metro.cpn
-Report generated: Sun Mar 24 12:43:24 2019
+Report generated: Thu Apr  4 15:39:37 2019
 
 
  Statistics
 ------------------------------------------------------------------------
 
   State Space
-     Nodes:  3290
-     Arcs:   6076
-     Secs:   0
-     Status: Full
+     Nodes:  26019
+     Arcs:   108569
+     Secs:   300
+     Status: Partial
 
   Scc Graph
-     Nodes:  1
-     Arcs:   0
-     Secs:   0
+     Nodes:  26019
+     Arcs:   108569
+     Secs:   2
 
 
  Boundedness Properties
@@ -23,198 +23,287 @@ Report generated: Sun Mar 24 12:43:24 2019
 
   Best Integer Bounds
                              Upper      Lower
-     New_Page'Free 1         2          0
-     New_Page'Free1 1        2          0
-     New_Page'O1 1           1          0
-     New_Page'O11 1          1          0
-     New_Page'O2 1           1          0
-     New_Page'O21 1          1          0
-     New_Page'O3 1           1          0
-     New_Page'O31 1          1          0
-     New_Page'O4 1           1          0
-     New_Page'O41 1          1          0
-     New_Page'OP1 1          1          0
-     New_Page'OP2 1          1          0
-     New_Page'P1 1           1          0
-     New_Page'P11 1          1          0
-     New_Page'P2 1           1          0
-     New_Page'P21 1          1          0
-     New_Page'P3 1           1          0
-     New_Page'P31 1          1          0
-     New_Page'P4 1           1          0
-     New_Page'P41 1          1          0
-     New_Page'Punkt_Przesiadkowy_2 1
-                             1          0
-     New_Page'Punkt_przesiadkowy_1 1
-                             1          0
+     Group_1'Free1 1         1          0
+     Group_1'O4 1            1          0
+     Group_1'O41 1           1          0
+     Group_1'O5 1            1          0
+     Group_1'O51 1           1          0
+     Group_1'O6 1            1          0
+     Group_1'O61 1           1          0
+     Group_1'P4 1            1          0
+     Group_1'P41 1           1          0
+     Group_1'P5 1            1          0
+     Group_1'P51 1           1          0
+     Group_1'P6 1            1          0
+     Group_1'P61 1           1          0
+     Group_2'Free 1          1          0
+     Group_2'O1 1            1          0
+     Group_2'O11 1           1          0
+     Group_2'O2 1            1          0
+     Group_2'O21 1           1          0
+     Group_2'P1 1            1          0
+     Group_2'P11 1           1          0
+     Group_2'P2 1            1          0
+     Group_2'P21 1           1          0
+     Group_3'Free5 1         1          0
+     Group_3'O14 1           1          0
+     Group_3'O15 1           1          0
+     Group_3'P14 1           1          0
+     Group_3'P15 1           1          0
+     Group_4'O34 1           1          0
+     Group_4'O35 1           1          0
+     Group_4'O44 1           1          0
+     Group_4'O45 1           1          0
+     Group_4'P34 1           1          0
+     Group_4'P35 1           1          0
+     Group_4'P44 1           1          0
+     Group_4'P45 1           1          0
+     Group_5'Free6 1         1          0
+     Group_5'O64 1           1          0
+     Group_5'O65 1           1          0
+     Group_5'P64 1           1          0
+     Group_5'P65 1           1          0
+     Group_6'Free2 1         1          0
+     Group_6'O12 1           1          0
+     Group_6'O13 1           1          0
+     Group_6'O22 1           1          0
+     Group_6'O23 1           1          0
+     Group_6'P12 1           1          0
+     Group_6'P13 1           1          0
+     Group_6'P22 1           1          0
+     Group_6'P23 1           1          0
+     Group_7'Free3 1         1          0
+     Group_7'O42 1           1          0
+     Group_7'O43 1           1          0
+     Group_7'O52 1           1          0
+     Group_7'O53 1           1          0
+     Group_7'O62 1           1          0
+     Group_7'O63 1           1          0
+     Group_7'P42 1           1          0
+     Group_7'P43 1           1          0
+     Group_7'P52 1           1          0
+     Group_7'P53 1           1          0
+     Group_7'P62 1           1          0
+     Group_7'P63 1           1          0
+     Metro'O24 1             1          0
+     Metro'O25 1             1          0
+     Metro'O3 1              1          0
+     Metro'O31 1             1          0
+     Metro'O32 1             1          0
+     Metro'O33 1             1          0
+     Metro'O54 1             1          0
+     Metro'O55 1             1          0
+     Metro'P24 1             1          0
+     Metro'P25 1             1          0
+     Metro'P3 1              1          0
+     Metro'P31 1             1          0
+     Metro'P32 1             1          0
+     Metro'P33 1             1          0
+     Metro'P54 1             1          0
+     Metro'P55 1             1          0
 
   Best Upper Multi-set Bounds
-     New_Page'Free 1     2`metro2(1)++
-2`metro2(2)++
-2`metro2(3)++
-2`metro2(4)++
-2`metro2(5)++
-2`metro2(6)++
-2`metro2(7)
-     New_Page'Free1 1    2`metro1(1)++
-2`metro1(2)++
-2`metro1(3)++
-2`metro1(4)++
-2`metro1(5)++
-2`metro1(6)++
-2`metro1(7)
-     New_Page'O1 1       1`e
-     New_Page'O11 1      1`e
-     New_Page'O2 1       1`e
-     New_Page'O21 1      1`e
-     New_Page'O3 1       1`e
-     New_Page'O31 1      1`e
-     New_Page'O4 1       1`e
-     New_Page'O41 1      1`e
-     New_Page'OP1 1      1`e
-     New_Page'OP2 1      1`e
-     New_Page'P1 1       1`metro1(1)++
-1`metro1(2)++
-1`metro1(3)++
-1`metro1(4)++
-1`metro1(5)++
-1`metro1(6)++
-1`metro1(7)
-     New_Page'P11 1      1`metro2(1)++
-1`metro2(2)++
-1`metro2(3)++
-1`metro2(4)++
-1`metro2(5)++
-1`metro2(6)++
-1`metro2(7)
-     New_Page'P2 1       1`metro1(1)++
-1`metro1(2)++
-1`metro1(3)++
-1`metro1(4)++
-1`metro1(5)++
-1`metro1(6)++
-1`metro1(7)
-     New_Page'P21 1      1`metro2(1)++
-1`metro2(2)++
-1`metro2(3)++
-1`metro2(4)++
-1`metro2(5)++
-1`metro2(6)++
-1`metro2(7)
-     New_Page'P3 1       1`metro1(1)++
-1`metro1(2)++
-1`metro1(3)++
-1`metro1(4)++
-1`metro1(5)++
-1`metro1(6)++
-1`metro1(7)
-     New_Page'P31 1      1`metro2(1)++
-1`metro2(2)++
-1`metro2(3)++
-1`metro2(4)++
-1`metro2(5)++
-1`metro2(6)++
-1`metro2(7)
-     New_Page'P4 1       1`metro1(1)++
-1`metro1(2)++
-1`metro1(3)++
-1`metro1(4)++
-1`metro1(5)++
-1`metro1(6)++
-1`metro1(7)
-     New_Page'P41 1      1`metro2(1)++
-1`metro2(2)++
-1`metro2(3)++
-1`metro2(4)++
-1`metro2(5)++
-1`metro2(6)++
-1`metro2(7)
-     New_Page'Punkt_Przesiadkowy_2 1
-                         1`metro2(1)++
-1`metro2(2)++
-1`metro2(3)++
-1`metro2(4)++
-1`metro2(5)++
-1`metro2(6)++
-1`metro2(7)
-     New_Page'Punkt_przesiadkowy_1 1
-                         1`metro1(1)++
-1`metro1(2)++
-1`metro1(3)++
-1`metro1(4)++
-1`metro1(5)++
-1`metro1(6)++
-1`metro1(7)
+     Group_1'Free1 1     1`metro1(3)
+     Group_1'O4 1        1`e
+     Group_1'O41 1       1`e
+     Group_1'O5 1        1`e
+     Group_1'O51 1       1`e
+     Group_1'O6 1        1`e
+     Group_1'O61 1       1`e
+     Group_1'P4 1        1`metro1(1)++
+1`metro1(3)
+     Group_1'P41 1       1`metro2(1)++
+1`metro2(3)
+     Group_1'P5 1        1`metro1(1)++
+1`metro1(3)
+     Group_1'P51 1       1`metro2(1)
+     Group_1'P6 1        1`metro1(3)
+     Group_1'P61 1       1`metro2(1)
+     Group_2'Free 1      1`metro2(3)
+     Group_2'O1 1        1`e
+     Group_2'O11 1       1`e
+     Group_2'O2 1        1`e
+     Group_2'O21 1       1`e
+     Group_2'P1 1        1`metro1(1)
+     Group_2'P11 1       1`metro2(1)++
+1`metro2(3)
+     Group_2'P2 1        1`metro1(1)
+     Group_2'P21 1       1`metro2(1)++
+1`metro2(3)
+     Group_3'Free5 1     1`metro5(3)
+     Group_3'O14 1       1`e
+     Group_3'O15 1       1`e
+     Group_3'P14 1       1`metro5(1)++
+1`metro5(3)
+     Group_3'P15 1       1`metro6(1)
+     Group_4'O34 1       1`e
+     Group_4'O35 1       1`e
+     Group_4'O44 1       1`e
+     Group_4'O45 1       1`e
+     Group_4'P34 1       1`metro5(1)++
+1`metro5(3)
+     Group_4'P35 1       1`metro6(1)++
+1`metro6(3)
+     Group_4'P44 1       1`metro5(1)++
+1`metro5(3)
+     Group_4'P45 1       1`metro6(1)++
+1`metro6(3)
+     Group_5'Free6 1     1`metro6(3)
+     Group_5'O64 1       1`e
+     Group_5'O65 1       1`e
+     Group_5'P64 1       1`metro5(1)
+     Group_5'P65 1       1`metro6(1)++
+1`metro6(3)
+     Group_6'Free2 1     1`metro4(3)
+     Group_6'O12 1       1`e
+     Group_6'O13 1       1`e
+     Group_6'O22 1       1`e
+     Group_6'O23 1       1`e
+     Group_6'P12 1       1`metro3(1)
+     Group_6'P13 1       1`metro4(1)++
+1`metro4(3)
+     Group_6'P22 1       1`metro3(1)
+     Group_6'P23 1       1`metro4(1)++
+1`metro4(3)
+     Group_7'Free3 1     1`metro3(3)
+     Group_7'O42 1       1`e
+     Group_7'O43 1       1`e
+     Group_7'O52 1       1`e
+     Group_7'O53 1       1`e
+     Group_7'O62 1       1`e
+     Group_7'O63 1       1`e
+     Group_7'P42 1       1`metro3(1)++
+1`metro3(3)
+     Group_7'P43 1       1`metro4(1)
+     Group_7'P52 1       1`metro3(1)++
+1`metro3(3)
+     Group_7'P53 1       1`metro4(1)
+     Group_7'P62 1       1`metro3(1)++
+1`metro3(3)
+     Group_7'P63 1       1`metro4(1)
+     Metro'O24 1         1`e
+     Metro'O25 1         1`e
+     Metro'O3 1          1`e
+     Metro'O31 1         1`e
+     Metro'O32 1         1`e
+     Metro'O33 1         1`e
+     Metro'O54 1         1`e
+     Metro'O55 1         1`e
+     Metro'P24 1         1`metro5(1)++
+1`metro5(3)
+     Metro'P25 1         1`metro6(1)
+     Metro'P3 1          1`metro1(1)++
+1`metro1(3)
+     Metro'P31 1         1`metro2(1)++
+1`metro2(3)
+     Metro'P32 1         1`metro3(1)
+     Metro'P33 1         1`metro4(1)++
+1`metro4(3)
+     Metro'P54 1         1`metro5(1)
+     Metro'P55 1         1`metro6(1)++
+1`metro6(3)
 
   Best Lower Multi-set Bounds
-     New_Page'Free 1     empty
-     New_Page'Free1 1    empty
-     New_Page'O1 1       empty
-     New_Page'O11 1      empty
-     New_Page'O2 1       empty
-     New_Page'O21 1      empty
-     New_Page'O3 1       empty
-     New_Page'O31 1      empty
-     New_Page'O4 1       empty
-     New_Page'O41 1      empty
-     New_Page'OP1 1      empty
-     New_Page'OP2 1      empty
-     New_Page'P1 1       empty
-     New_Page'P11 1      empty
-     New_Page'P2 1       empty
-     New_Page'P21 1      empty
-     New_Page'P3 1       empty
-     New_Page'P31 1      empty
-     New_Page'P4 1       empty
-     New_Page'P41 1      empty
-     New_Page'Punkt_Przesiadkowy_2 1
-                         empty
-     New_Page'Punkt_przesiadkowy_1 1
-                         empty
+     Group_1'Free1 1     empty
+     Group_1'O4 1        empty
+     Group_1'O41 1       empty
+     Group_1'O5 1        empty
+     Group_1'O51 1       empty
+     Group_1'O6 1        empty
+     Group_1'O61 1       empty
+     Group_1'P4 1        empty
+     Group_1'P41 1       empty
+     Group_1'P5 1        empty
+     Group_1'P51 1       empty
+     Group_1'P6 1        empty
+     Group_1'P61 1       empty
+     Group_2'Free 1      empty
+     Group_2'O1 1        empty
+     Group_2'O11 1       empty
+     Group_2'O2 1        empty
+     Group_2'O21 1       empty
+     Group_2'P1 1        empty
+     Group_2'P11 1       empty
+     Group_2'P2 1        empty
+     Group_2'P21 1       empty
+     Group_3'Free5 1     empty
+     Group_3'O14 1       empty
+     Group_3'O15 1       empty
+     Group_3'P14 1       empty
+     Group_3'P15 1       empty
+     Group_4'O34 1       empty
+     Group_4'O35 1       empty
+     Group_4'O44 1       empty
+     Group_4'O45 1       empty
+     Group_4'P34 1       empty
+     Group_4'P35 1       empty
+     Group_4'P44 1       empty
+     Group_4'P45 1       empty
+     Group_5'Free6 1     empty
+     Group_5'O64 1       empty
+     Group_5'O65 1       empty
+     Group_5'P64 1       empty
+     Group_5'P65 1       empty
+     Group_6'Free2 1     empty
+     Group_6'O12 1       empty
+     Group_6'O13 1       empty
+     Group_6'O22 1       empty
+     Group_6'O23 1       empty
+     Group_6'P12 1       empty
+     Group_6'P13 1       empty
+     Group_6'P22 1       empty
+     Group_6'P23 1       empty
+     Group_7'Free3 1     empty
+     Group_7'O42 1       empty
+     Group_7'O43 1       empty
+     Group_7'O52 1       empty
+     Group_7'O53 1       empty
+     Group_7'O62 1       empty
+     Group_7'O63 1       empty
+     Group_7'P42 1       empty
+     Group_7'P43 1       empty
+     Group_7'P52 1       empty
+     Group_7'P53 1       empty
+     Group_7'P62 1       empty
+     Group_7'P63 1       empty
+     Metro'O24 1         empty
+     Metro'O25 1         empty
+     Metro'O3 1          empty
+     Metro'O31 1         empty
+     Metro'O32 1         empty
+     Metro'O33 1         empty
+     Metro'O54 1         empty
+     Metro'O55 1         empty
+     Metro'P24 1         empty
+     Metro'P25 1         empty
+     Metro'P3 1          empty
+     Metro'P31 1         empty
+     Metro'P32 1         empty
+     Metro'P33 1         empty
+     Metro'P54 1         empty
+     Metro'P55 1         empty
 
 
  Home Properties
 ------------------------------------------------------------------------
 
   Home Markings
-     All
+     None
 
 
  Liveness Properties
 ------------------------------------------------------------------------
 
   Dead Markings
-     None
+     7566 [26019,26018,26017,26016,26015,...]
 
   Dead Transition Instances
      None
 
   Live Transition Instances
-     All
+     None
 
 
  Fairness Properties
 ------------------------------------------------------------------------
-
-  Impartial Transition Instances
-     New_Page'T0 1
-     New_Page'T01 1
-     New_Page'T1 1
-     New_Page'T11 1
-     New_Page'T2 1
-     New_Page'T21 1
-     New_Page'T3 1
-     New_Page'T31 1
-     New_Page'T4 1
-     New_Page'T41 1
-     New_Page'T5 1
-     New_Page'T51 1
-
-  Fair Transition Instances
-     None
-
-  Just Transition Instances
-     None
-
-  Transition Instances with No Fairness
-     None
+     No infinite occurrence sequences.
